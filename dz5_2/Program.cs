@@ -15,9 +15,9 @@ Console.WriteLine($"Сумму элементов, стоящих на нечё�
 int GetSumm(int[] array)
 {
     int Summ = 0;
-    for(int i = 0; i<size; i++)
+    for (int i = 0; i < size; i++)
     {
-        Summ += i%2!=0 ? array[i] : 0;
+        Summ += i % 2 != 0 ? array[i] : 0;
     }
     return Summ;
 }

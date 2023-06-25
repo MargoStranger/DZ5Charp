@@ -18,7 +18,7 @@ int GetNumbers(int[] array)
     int SumEven = 0;
     for (int i = 0; i < size; i++)
     {
-        SumEven += array[i]%2==0 ? 1 : 0;
+        SumEven += array[i] % 2 == 0 ? 1 : 0;
     }
     return SumEven;
 }
